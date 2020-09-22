@@ -13,7 +13,7 @@ const firebaseConfig = {
   appId: "1:388543405071:web:f6d202e6d056f5a1db577a"
 };
 
-import ClienteInterfaces from './interfaces/clientes'
+import { ClienteInterfaces } from './interfaces/clientes'
 
 firebase.initializeApp(firebaseConfig);
 

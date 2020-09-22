@@ -1,14 +1,15 @@
-import { Component, OnInit, Host } from '@angular/core'
+import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from '../firebase.service';
 
 @Component({
-  selector: 'app-form-box',
-  templateUrl: './form-box.component.html',
-  styleUrls: ['./form-box.component.scss'],
+  selector: 'app-cliente-formulario',
+  templateUrl: './cliente-formulario.component.html',
+  styleUrls: ['./cliente-formulario.component.scss'],
   providers: [FirebaseService]
 })
 
-export class FormBoxComponent implements OnInit {
+
+export class ClienteFormularioComponent implements OnInit {
 
   constructor(
     private fb: FirebaseService

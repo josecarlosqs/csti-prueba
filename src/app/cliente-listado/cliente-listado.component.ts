@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from '../firebase.service';
 
 @Component({
-  selector: 'app-listado',
-  templateUrl: './listado.component.html',
-  styleUrls: ['./listado.component.scss'],
+  selector: 'app-cliente-listado',
+  templateUrl: './cliente-listado.component.html',
+  styleUrls: ['./cliente-listado.component.scss'],
   providers: [FirebaseService]
 })
-export class ListadoComponent implements OnInit {
+export class ClienteListadoComponent implements OnInit {
 
   constructor(
     private fb: FirebaseService

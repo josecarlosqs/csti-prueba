@@ -30,7 +30,7 @@ nav{
         font-weight: bold;
         text-decoration: none;
         color: #000;
-        &.active{
+        &:not(.active){
             opacity: 0.4;
         }
     }
